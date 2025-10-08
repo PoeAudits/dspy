@@ -32,7 +32,7 @@ class LocalProvider(Provider):
         except ImportError:
             raise ImportError(
                 "For local model launching, please install sglang."
-                "Navigate to https://docs.sglang.ai/start/install.html for the latest installation instructions!"
+                "Navigate to https://docs.sglang.ai/get_started/install.html for the latest installation instructions!"
             )
 
         if hasattr(lm, "process"):
